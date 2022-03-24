@@ -1,0 +1,169 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: kumbhsans-BOLD;
+  src: url(../fonts/KumbhSans-Bold.ttf);
+}
+font-face {
+  font-family: kumbhsans-REGULAR;
+  src: url(../fonts/KumbhSans-Regular.ttf);
+}
+.logo {
+  padding: 50px 20px 19px 50px;
+  margin: 50px;
+}
+.n-link {
+  display: flex;
+  justify-content: space-between;
+}
+.navagation {
+  background-color: #5175ff;
+  margin: 70px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.link {
+  display: inline-block;
+  margin: px 50px;
+  color: #fff;
+  padding: 20px;
+  text-decoration: none;
+  font-family: KumbhSans-Bold;
+  font-size: 30px;
+}
+.link:hover {
+  background-color: #000000;
+}
+.text-chart {
+  display: flex;
+  padding: 30px 30px 0px 30px;
+  margin: 0px 100px 0px 100px;
+}
+.heading {
+  color: #333950;
+  font-family: KumbhSans-Bold;
+  padding-bottom: 10px;
+
+  font-size: 56px;
+}
+.paragraph {
+  color: #747b95;
+  padding: 10px 10px 30px 10px;
+  font-size: 18px;
+  font-family: kumbhsans-REGULAR;
+}
+.started {
+  background-color: #fff;
+  color: #000;
+  font-family: KumbhSans-Bold;
+  border: none;
+  font-size: 13px;
+  border-radius: 118px;
+  padding: 15px 30px;
+  margin: 10px 30px 30px 0px;
+}
+.started:hover {
+  background-color: #5175ff;
+}
+.plant {
+  display: flex;
+  text-align: center;
+  align-content: center;
+}
+.try-for-free {
+  background-color: #fff;
+  padding: 30px;
+  margin: 0px 0px 0px 50px;
+  border: none solid;
+  border-radius: 18px;
+}
+.basic {
+  font-family: KumbhSans-Bold;
+  font-size: 20;
+  color: #000;
+  padding-bottom: 30px;
+}
+.free {
+  font-family: KumbhSans-Bold;
+  font-size: 56;
+  color: #000;
+}
+.user-for-free {
+  font-size: 16;
+  color: #000;
+  font-family: kumbhsans-REGULAR;
+  line-height: 50px;
+}
+.butoon-free {
+  background-color: #fff;
+  color: #5175ff;
+  font-family: KumbhSans-Bold;
+  border: none;
+  font-size: 13px;
+  border-radius: 118px;
+  padding: 10px;
+}
+.per-monthly {
+  background-color: #fff;
+  padding: 30px;
+  margin: 0px 50px;
+  border: none solid;
+  border-radius: 18px;
+}
+.month:hover {
+  background-color: #5175ff;
+}
+
+.monthly-payment {
+  background-color: #fff;
+  padding: 30px;
+  margin: 0px 50px 0px 0px;
+  margin-right: 444;
+  border: none solid;
+  border-radius: 18px;
+  padding-left: 30px;
+}
+
+.started-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.img {
+  background-image: url(/img/Mask.png);
+}
+.boxes {
+  display: flex;
+  margin-left: 100px;
+}
+.year {
+  font-family: KumbhSans-Bold;
+  font-size: 16px;
+  margin: 20px 0px 0px 100px;
+  padding: 20px;
+}
+.hours {
+  color: #fff;
+  background-color: #333950;
+  font-family: KumbhSans-Bold;
+  line-height: 50px;
+  border: none solid;
+  border-radius: 18px;
+  padding: 30px 30px 0px 30px;
+  margin: 0px 10px 100px 20px;
+}
+.butoon {
+  background-color: #25293a;
+  color: #fff;
+  font-family: KumbhSans-Bold;
+  border: none;
+  font-size: 13px;
+  border-radius: 118px;
+  padding: 15px 30px;
+  margin: 100px;
+  line-height: 20px;
+}
